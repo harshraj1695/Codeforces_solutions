@@ -1,0 +1,34 @@
+# Ignore application and system files
+*.exe
+*.out
+*.a
+*.o
+*.so
+*.dylib
+*.dll
+*.log
+*.tmp
+*.swp
+*.bak
+*.class
+
+# Ignore IDE and editor files (optional, adjust based on your setup)
+.vscode/
+.idea/
+*.iml
+*.sublime-workspace
+*.sublime-project
+
+# Ignore build or output directories
+/build/
+/bin/
+/obj/
+
+# Ignore configuration files
+*.config
+*.env
+
+# Track only C and C++ source files
+!*.cpp
+!*.c
+
